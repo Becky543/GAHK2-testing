@@ -126,8 +126,8 @@ tempFinal = Number(temp2);
                 <ul class="list-group">
                     <!-- <li class="list-group-item">Difficulty Score: <input type="number" name="Competition[d1Score]" placeholder="0.0" step="0.1" min="0" width="50" required></li> -->
                     <!-- <li class="list-group-item">D Score: <%= competition.d1Score %></li> -->
-                    <li class="list-group-item">D Score: <input name="Competition[d1Score]" value="<%= competition.d1Score %>" /></li>
-                    <li class="list-group-item">E Final: <input name="Competition[eAvgScore]" value="<%= competition.eAvgScore %>" /></li>
+                    <li class="list-group-item">D Score: <input name="Competition[d1Score]" value="<%= competition.d1Score %>"</li>
+                    <li class="list-group-item">E Final: <input name="Competition[eAvgScore]" value="<%= competition.eAvgScore %>" required/></li>
                     <li class="list-group-item">Extra Deduction: <input type="number" name="Competition[deduction]" value="<%= competition.deduction %>" placeholder="0.0" step="0.1" min="0" width="50" required></li>
                     <li class="list-group-item">Final Score (<b>Including</b> extra deduction): <input type="number" name="Competition[totalScore]" placeholder="0.000" step="0.001" min="0" width="50" required></li> 
                    
